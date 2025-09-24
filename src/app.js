@@ -23,3 +23,7 @@ window.onload = function() {
     <div class="bottom">${suitSymbols[randomSuit]}</div>
   `;
 };
+
+document.getElementById("refrescarPag").addEventListener("click", function() {
+  location.reload(); // refresca la página
+});
