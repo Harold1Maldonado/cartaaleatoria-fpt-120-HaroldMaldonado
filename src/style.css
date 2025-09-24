@@ -7,38 +7,37 @@ body {
 }
 
 .card {
-  width: 150px;
-  height: 220px;
-  margin: auto;
-  border-radius: 10px;
+  width: 300px;
+  height: 500px;
   background: white;
-  font-size: 2.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
-  position: relative;
+  position: relative;  
 }
 
-/* Esquinas superior izquierda y inferior derecha */
-.top, .bottom {
-  font-size: 1.8rem;
+.top {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 1.5rem;
 }
 
 .bottom {
   position: absolute;
-  bottom: 15px;
-  right: 15px;
+  bottom: 10px;
+  right: 10px;
+  font-size: 1.5rem;
   transform: rotate(180deg);
 }
 
 .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 3rem;
-  align-self: center;
+  text-align: center;
 }
-
-/* Colores según el palo */
 .heart, .diamond { color: red; }
 .spade, .club { color: black; }
