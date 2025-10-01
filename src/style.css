@@ -13,8 +13,8 @@ body {
   background: white;
   margin: 20px auto;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
-  position: relative;  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  position: relative;
 }
 
 .top {
@@ -40,6 +40,13 @@ body {
   font-size: 9rem;
   text-align: center;
 }
-.heart, .diamond { color: red; }
-.spade, .club { color: black; }
 
+.heart,
+.diamond {
+  color: red;
+}
+
+.spade,
+.club {
+  color: black;
+}
